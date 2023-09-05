@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name='viewport' content='width=1920, user-scalable=no'>
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="lib/navigation/jquery.min.js"></script>
+  <script src="lib/navigation/lodash.min.js"></script>
+  <script src="lib/navigation/spatial_navigation.js"></script>
+</head>
+
+<body>
+  <div class="full_container">
+    <div class="main_container email_phone_container" id="email_phone_container" style="display: none">
+      <div class="background_img_container">
+        <img src="images/loding-screen1.jpg" />
+      </div>
+      <div class="left_container">
+        <div class="text_container">
+          <div class="scan_play_box">
+            <p>Scan QR Code for Sign Up</p>
+          </div>
+          <div class="sign_play_box">
+            <p>
+              To Sign up an account scan with your Phone Camera or a QR reader
+              app
+            </p>
+          </div>
+        </div>
+        <div class="img_container img_qr_container">
+          <img src="images/qrcode.png" />
+        </div>
+      </div>
+      <div class="center_line_container">
+        <div class="top_line_container"></div>
+        <div class="or_text_cont"><span>OR</span></div>
+        <div class="bottom_line_container"></div>
+      </div>
+      <div class="right_container">
+        <div class="text_container">
+          <div class="scan_play_box">
+            <p>Login With OTP</p>
+          </div>
+        </div>
+        <div class="sign_play_box sign_in_text">
+          <p>
+            To Sign In an account, Please enter your phone or email and get OTP
+            verification.
+          </p>
+        </div>
+
+        <div class="email_text_container">
+          <input class="email_or_phone focusable" type="text" id="email_or_phone" placeholder="Email or Phone" tabindex="3" data-sn-up="null" data-sn-down="#password"
+          data-sn-left="null" data-sn-right="null" />
+        </div>
+
+        <div class="email_text_container password_container">
+            <input class="email_or_phone password focusable" type="password" id="password" placeholder="password..." tabindex="3" data-sn-up="#email_or_phone" data-sn-down="#send_otp_email"
+            data-sn-left="null" data-sn-right="null"
+            />
+          </div>
+
+          <div class="submit_btn_container emai_phone_box">
+            <button type="submit" class="submit_button send_otp_email focusable" id="send_otp_email" tabindex="3" data-sn-up="#password" data-sn-down="null"
+              data-sn-left="null" data-sn-right="null">
+              Sign In
+            </button>
+          </div>
+
+          <div class="error_box error_overlay" id="error_overlay" style="display: none;">
+            <div class="error_box_bg">
+                <div>
+                    <span class="error_message" id="error_message"></span>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="js/config.js" type="text/javascript"></script>
+  <script src="js/common-navigation.js" type="text/javascript"></script>
+  <script src="js/login.js" type="text/javascript"></script>
+  <script src="js/home.js" type="text/javascript"></script>
+  <script src="$WEBAPIS/webapis/webapis.js " type="text/javascript "></script>
+</body>
+
+</html>

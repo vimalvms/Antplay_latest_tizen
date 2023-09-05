@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name='viewport' content='width=1920, user-scalable=no'>
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="lib/navigation/jquery.min.js"></script>
+  <script src="lib/navigation/lodash.min.js"></script>
+  <script src="lib/navigation/spatial_navigation.js"></script>
+</head>
+
+<body>
+  <div class="full_container">
+
+    <div class="game_container vm_ip" id="vm_ip" style="display: none">
+      <div class="background_img_container">
+        <img src="images/splash_screen.jpg" style="width: 1920px; height: 1080px;"/>
+      </div>
+
+      <div class="game_scroll_container" id="game_page_data">
+      </div>
+
+      <div class="connect_btn_container submit_btn_container">
+        <button type="submit" class="send_otp_email focusable connect_btn submit_button btn js-otp-confirm disabled"
+          id="continueAddHost">Play</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="js/config.js" type="text/javascript"></script>
+  <script src="js/common-navigation.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <script src="js/home.js" type="text/javascript"></script>
+  <script src="$WEBAPIS/webapis/webapis.js " type="text/javascript "></script>
+</body>
+
+</html>

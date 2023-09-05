@@ -1,0 +1,672 @@
+* {
+    margin:0;padding:0
+}
+
+.full_container{
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+}
+
+.background_img_container{
+    opacity: 0.4;
+    position: absolute;
+}
+
+.subscription_msg{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+}
+
+.subscription_text{
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    background: #000;
+    z-index: 9999999;
+}
+
+.left_container{
+    width: 50%;
+    height: 1080px;
+    float: left;
+    text-align: center;
+}
+
+.right_container{
+    width: 50%;
+    height: 1080px;
+    float: left;
+    text-align: center;
+}
+
+.text_container{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+.play_box{
+    width: 340px;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 10% auto;
+    text-align: center;
+    position: relative;
+}
+
+.img_container{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.img_container img{
+    position: relative;
+    bottom: 120px;
+    width: 500px;
+    height: 500px;
+    top: 26px;
+}
+
+.btn_container{
+    width: 100%;
+    height: 280px;
+    float: left;
+    text-align: center;
+}
+
+.submit_btn_container{
+    text-align: center;
+    position: relative;
+    top: 205px;
+    z-index: 99999;
+}
+
+.emai_phone_box{
+    top:50px;
+}
+
+.verify_otp{
+    top:0px;
+}
+
+.submit_btn{
+    width: 475px;
+    height: 90px;
+    background-image: linear-gradient(#52B0D0, #0F92BA);
+    /* background: skyblue; */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 6% auto;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.desktop_img img{
+    position: relative;
+    top: 10px;
+    left: 180px;
+}
+
+.desktop_exp{
+    width: 615px;
+}
+
+.top_line_container {
+    position: relative;
+    top:0px;
+    border: 6px solid #fff;
+    height: 500px;
+}
+
+.center_line_container{
+    width: 0%;
+    float: left;
+}
+
+.bottom_line_container {
+    position: relative;
+    bottom:0px;
+    border: 6px solid #fff;
+    height: 500px;
+}
+
+.or_text_cont{
+    height: 80px;
+}
+
+.or_text_cont span{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 13px;
+    right: 26px;
+    font-weight: bold;
+}
+
+.background_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.logo_container{
+    position: relative;
+    z-index: 9;
+    height: 220px;
+    box-sizing: border-box;
+}
+
+.logo_box{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    float: left;
+}
+
+.logo_box img{
+    width: 400px;
+}
+
+.skip_box{
+    color: white;
+    float: right;
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+    right: 25px;
+    z-index: 99999;
+}
+
+.center_text_box{
+    color: white;
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
+.android_text{
+    color: white;
+    width: 750px;
+    position: relative;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    left: 50px;
+    box-sizing: border-box;
+    height: 165px;
+    top: 165px;
+}
+
+.center_tag_box{
+    color:white;
+}
+
+.submit_button{
+    color:white;
+}
+
+.screen_control_text{
+    color: white;
+    width: 462px;
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    left: 50px;
+    top: 185px;
+}
+
+.submit_button{
+    color: white;
+    background-image: linear-gradient(#52B0D0, #0F92BA);
+    /* background: skyblue; */
+    width: 670px;
+    position: relative;
+    margin: auto;
+    height: 95px;
+    font-size: 65px;
+    text-align: center;
+    left: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.slider__navlink {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    background-color: #fff;
+    opacity: 1;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.slider__nav {
+    position: absolute;
+    bottom: 7%;
+    left: 52%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.slider__navlink.active {
+    background-image: linear-gradient(#52B0D0, #0F92BA);
+    /* background-color: skyblue; */
+    border: 1px #333 solid;
+}
+
+.game_convenience{
+    width: 895px;
+}
+
+.game_favorites{
+    width: 895px; 
+}
+
+.game_cloud{
+    width: 470px;
+}
+
+.scan_play_box{
+    color: white;
+    margin: 0 auto;
+    width: 840px;
+    font-size: 75px;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.connect_btn{
+    top:0px;
+}
+
+.sign_play_box{
+    width: 903px;
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 155px;
+}
+
+.img_qr_container{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    top: 70px;
+}
+
+.sign_in_text{
+    width: 805px;
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top:-58px;
+}
+
+.email_text_container{
+    width: 668px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    border: 1px solid white;
+}
+
+input[type="text"] {
+    padding: 6px;
+    color:#fff;
+}
+
+input::placeholder {
+    color: #fff;
+    position: relative;
+    /* left: 10px; */
+}
+
+.email_or_phone{
+    width: 655px;
+    height: 91px;
+    background: black;
+    border: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.send_otp_email{
+    left: 5px;
+}
+
+.userInput {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.otp_enter{
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arimo;
+    font-size: 40px;
+    background: black;
+    color: white;
+}
+
+.icon_container{
+    width: 100%;
+    height: 86px;
+    border-bottom: 1px solid lightgray;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+}
+
+.setting_icon{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.exit_wifi_icon_container{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.right_icon_cont{
+    width: 140px;
+    float: right;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.game_logo{
+    margin: auto;
+    width: 800px;
+    position: relative;
+    top: 45px;
+}
+
+.game_logo img{
+    width: 700px;
+}
+
+.game_scroll_img{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.vm_box {
+    width: 400px;
+    border-radius: 30px;
+    height: 500px;
+    border: 2px solid red;
+    margin:0 auto;
+    text-align: center;
+}
+
+.right_icon_cont img{
+    margin-right: 40px;
+}
+
+.connect_btn_container{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 755px;
+}
+
+.password{
+    color:white;
+    padding: 6px;
+}
+
+.password_container{
+    top:30px;
+}
+
+.submit_btn:focus {
+    border: 4px solid #d91e24;
+}
+
+.submit_button:focus {
+    border: 4px solid #d91e24;
+}
+
+.skip_box:focus {
+    font-size: 60px;
+    font-weight: bold;
+    color: #d91e24;
+}
+
+.email_or_phone:focus{
+    border: 1px solid #fff; 
+}
+
+.otp_enter:focus{
+    border: 1px solid #fff; 
+}
+
+.connect_btn{
+    width: 715px;
+    height: 150px;
+    background-image: linear-gradient(#52B0D0, #0F92BA);
+    /* background: skyblue; */
+    color: #fff;
+    font-size: 95px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    top: 0px;
+}
+
+.subscription_page{
+    width: 100%;
+    height: 1080px;
+    background: #0F92BA;
+}
+
+.subscription_data{
+    width: 100%;
+    display: inline-flex;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    bottom: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.setting_container{
+    width: 50%;
+    float: left;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.signin_container{
+    width: 50%;
+    float: left;
+    color: #fff;
+    text-align: right;
+}
+
+.inner_resoution_container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    font: 35px;
+}
+
+.setting_container img{
+    width: 100px;
+}
+
+.columns:focus .price {
+    border:4px solid red;
+}
+
+.setting_text{
+    color: #fff;
+    font-size: 65px;
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+.error_box {
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    bottom: 20%;
+}
+
+.error_box_bg {
+    background-color: #00000080;
+    display: inline-block;
+    padding: 18px 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.error_message {
+    letter-spacing: 1px;
+    font-size: 26px;
+    color: red;
+    font-family: 'Raleway-SemiBold';
+    text-transform: capitalize;
+}
+
+.otp_enter::-webkit-outer-spin-button,
+.otp_enter::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.logout_box{
+    color: white;
+    float: right;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    z-index: 99999;
+}
+
+.logout_box:focus {
+    font-size: 60px;
+    font-weight: bold;
+    color: #d91e24;
+}
+
+.loader_container{
+    width: 1920px;
+    height: 1080px;
+}
+
+.columns {
+    float: left;
+    width: 25%;
+    height: 450px;
+    padding: 8px;
+    margin: 0 auto;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+
+  .antplay_loader {
+    top: 48%;
+    left: 46%;
+    position: fixed !important;
+    display: none;
+    z-index: 1;
+}
+
+.loading_text{
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    right: 39%;
+}
+
+.antplay_circle_loader {
+    width: 120px;
+    height: 120px;
+    background: url("../../images/loader.png") no-repeat;
+    background-size: cover;
+    -moz-animation: spin 5s infinite linear;
+    -webkit-animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

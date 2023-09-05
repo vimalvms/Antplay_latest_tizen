@@ -1,0 +1,12 @@
+window.BASE_URL = "https://api.antplay.tech/v1/api/";
+window.LOGIN_DATA = {};
+window.PHONE_EMAIL = "";
+window.PHONE_EMAIL_VERIFICATION = "";
+window.GAME_PAGE_DATA = "";
+window.randomNumber='';
+window.FIRST_TIME = false;
+window.HIDE_SHOW_LOGIN_ERROR = '';
+window.SUBSCRIPTION_DATA = '';
+window.VMIP = "";
+window.stateBackground = '';
+window.myInterval = '';
